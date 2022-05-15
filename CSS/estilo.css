@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+h1 {
+    color: aqua;
+    background: blueviolet;
+}
+.palabra-con-puntos{
+    text-decoration:underline dashed violet;
+    font-style: italic;
+
+}
+p {
+}
+div {
+    height: 200px;
+    width: 50%;
+    background-color: aquamarine;
+}
