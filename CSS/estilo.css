@@ -1,24 +1,94 @@
-*{
+*{  
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: "border-box";
 }
 
 html {
     font-size: 16px;
-    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-family:Tahoma, sans-serif,;
 }
-h1 {
-    color: aqua;
-    background: blueviolet;
+.navbar {
+    padding-left:50px;
+    padding-right: 30px;
+    background-color:#343B41;
 }
-.palabra-con-puntos{
-    text-decoration:underline dashed violet;
-    font-style: italic;
-
+#codoacodo {
+    width: 100px;
 }
-div {
-    height: 200px;
-    width: 50%;
-    background-color: aquamarine;
+#laconferencia {
+    color: white;
+}
+#comprarticket {
+    color: green;
+}
+#imagen1 {
+    position: relative;
+    width: 100%;   
+}
+.right {
+    position: absolute;
+    top: 72%;
+    right: 0;
+    text-align: right;
+    margin-right: 99px;
+    color: white;
+}
+#boton-verde {
+    background-color: #28A745;
+    margin-left: 10px;
+}
+.card-columns {
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 0;
+}
+.card {
+    width: 100%;
+}
+.container2 {
+    padding-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.form-control {
+    font-size: 13px;
+}
+.form-check-label {
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+.d-grid {
+    background-color: #96C83F;
+    border-radius: 6px;
+    color: white;
+}
+#floatingTextarea2 {
+    height: 100px;
+}
+#img-honolulu {
+    width: 623px;
+}
+#tex-honolulu {
+    width: 625px;
+    background-color: #343B40;
+    padding-top: 10px;
+    font-size: 0.72em;
+    color: white
+}
+.title {
+    font-size: 11px;
+}
+.subrayado {
+    text-decoration:underline dotted black;
+}
+.navbar2 {
+    background-color:#1F4C67;
+    padding-top: 10px;
+}
+#link {
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    margin: 10px 25px 5px 25px;
 }
