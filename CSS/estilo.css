@@ -16,7 +16,7 @@ html {
 #codoacodo {
     width: 100px;
 }
-#laconferencia {
+#letrablanca {
     color: white;
 }
 #comprarticket {
@@ -36,7 +36,7 @@ html {
     
 }
 #boton-verde {
-    background-color: #28A745;
+    background-color: #28A745; 
     margin-left: 10px;
 }
 .card-columns {

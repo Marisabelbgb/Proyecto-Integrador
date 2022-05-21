@@ -1,0 +1,60 @@
+*{  
+    margin: 0;
+    padding: 0;
+    box-sizing: "border-box";
+}
+html {
+    font-size: 16px;
+    font-family:Tahoma, sans-serif,;
+}
+.navbar {
+    padding-left:50px;
+    padding-right: 6em;
+    background-color:#343B41;
+}
+#letrablanca {
+    color: white;
+}
+#comprarticket {
+    color: green;
+}
+.caja1 {
+    margin: 3px;
+    padding: 25px 0;
+    border: 2px solid #89C3FE;
+}
+.caja2 {
+    margin: 3px;
+    padding: 25px 0;
+    border: 2px solid #6DBDC9;
+}
+.caja3 {
+    margin: 3px;
+    padding: 25px 0;
+    border: 2px solid #FEC30F;
+}
+.container2{
+    padding-top: 20px;
+    margin-left: 24%;
+    margin-right: 24%;
+    margin-bottom: 15px;
+}
+#btn{
+    background-color: #96C83E;
+    color: white;
+    width: 320px;
+    margin: 0;
+    border: none;
+}
+.navbar2 {
+    margin: 0;
+    padding: 0;
+    background-color:#204C66;
+    padding-top: 10px;
+}
+#link {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 25px 5px 25px;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Integrador</title>
+  <link rel="stylesheet" href="css/estilo1.css">
+  <!-- Latest compiled and minified CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!--primer bloque-->
+  <div class="container-fliud">
+    <nav class="navbar navbar-expand-sm navbar-dark">
+      <a class="navbar-brand">Conf Bs As</a>
+      <ol class="container nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link disabled" class="nav-link" href="#">La conferencia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" class="nav-link" href="#">Los oradores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" class="nav-link" href="#">El lugar y la fecha</a>
+        </li>
+        <li class="nav-item">
+          <a id="letrablanca" class="nav-link disabled" class="nav-link" href="#">Conviértete en orador</a>
+        </li>
+        <li class="nav-item">
+          <a id="comprarticket" class="nav-link" class="nav-link" href="#">Comprar tickets</a>
+        </li>
+      </ol>
+    </nav>
+  </div>
+
+  <!-- segundo bloque-->
+
+  <div class="container-fliud">
+    <div class="text-center py-3">
+      <div class="row align-items-center justify-content-center">
+        <div class="caja1 col-sm-12 col-md-2 col-lg-2">
+          <h5>Estudiante</h5>
+          <p>Tienen un descuento</p>
+          <h6> 80%</h6>
+          <small> *presentar documentación</small>
+        </div>
+        <div class="caja2 col-sm-12 col-md-2 col-lg-2">
+          <h5>Trainee</h5>
+          <p>Tienen un descuento</p>
+          <h6> 50%</h6>
+          <small> *presentar documentación</small>
+        </div>
+        <div class="caja3 col-sm-12 col-md-2 col-lg-2">
+          <h5>Junior</h5>
+          <p>Tienen un descuento</p>
+          <h6> 15%</h6>
+          <small> *presentar documentación</small>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--tercer bloque-->
+  <div class="container2">
+    <div class="row text-center">
+      <small class="title text-muted ">VENTA</small>
+      <h2>VALOR DE TICKET $200</h2>
+    </div>
+    <form>
+      <div class="row mb-4 pt-3">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+        </div>
+        <div class="mb-3 mt-3">
+          <input type="email" class="form-control" id="email" placeholder="Correo" name="email">
+        </div>
+        <div class="col">
+          <label class="pb-2" for="cant">Cantidad</label>
+          <input type="cantidad" class="form-control" placeholder="cantidad" name="cantidad">
+        </div>
+        <div class="col">
+          <label class="pb-2" for="category">Categoria</label>
+          <select class="form-select">
+            <option>Estudiante</option>
+            <option>Trainee</option>
+            <option>Junior</option>
+          </select>
+        </div>
+      </div>
+    
+      <div class="col gap-3  d-md-flex justify-content-center">
+        <button id="btn" class="btn btn-primary" type="button">Borrar</button>
+        <button id="btn" class="btn btn-primary" type="button">Resumen</button>
+      </div>
+    </form>
+  </div>
+
+    <!--cuarto bloque-->
+    <div class="container-breackpoin">
+      <nav class="navbar2 navbar-expand-sm navbar-dark">
+        <ol id="texto" class="container nav justify-content-center">
+          <li class="nav-item">
+            <a id="link" class="nav-link" href="#" >Preguntas <br> frecuentes</a>
+          </li>
+          <li class="nav-item">
+            <a id="link" class="nav-link" href="#">Contáctanos</a>
+          </li>
+          <li class="nav-item">
+            <a id="link" class="nav-link" href="#">Prensa</a>
+          </li>
+          <li class="nav-item">
+            <a id="link" class="nav-link " href="#">Conferencias</a>
+          </li>
+          <li class="nav-item">
+            <a id="link" class="nav-link" href="#">Términos y <br> condiciones</a>
+          </li>
+          <li class="nav-item">
+            <a id="link" class="nav-link" href="#">Privacidad</a>
+          </li>
+          <li class="nav-item">
+            <a id="link" class="nav-link" href="#">Estudiantes</a>
+          </li>
+        </ol>
+      </nav>
+    </div>
+   
+  <!-- Latest compiled JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
