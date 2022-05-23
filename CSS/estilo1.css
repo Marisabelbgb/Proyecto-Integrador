@@ -39,6 +39,9 @@ html {
     margin-right: 24%;
     margin-bottom: 15px;
 }
+#total{
+    background-color: #CCE5FF;
+}
 #btn{
     background-color: #96C83E;
     color: white;
